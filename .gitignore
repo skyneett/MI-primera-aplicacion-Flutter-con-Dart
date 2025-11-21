@@ -44,6 +44,11 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# VS Code configuration (optional, uncomment if you want to ignore)
+.vscode/
+
 # Ignorar JDK binario accidental
 lib/oracleJdk-25
+**/oracleJdk*/
+**/jdk*/
 
